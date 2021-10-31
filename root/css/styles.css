@@ -1,0 +1,199 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1024px;
+}
+/***** Top banner *****/
+.top{
+    background-color: black;
+    border-style: none;
+    color: #F3F3F3;
+    font-size: 10px;
+    height: 20px;
+}
+/***** Main NAV in Header ****/
+nav{
+    background-color:  #F0A83E;
+    color:  #F3F3F3;
+    font-size: 10px;
+    height: 62px;
+}
+nav ul{
+    text-align: right;
+}
+/***** Slide *****/
+.slide{
+    background-image: url("/root/img/bowlbackground.png");
+    height: 409px;
+    width: 1024px;
+}
+#slideTitle{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    height: 54px;
+    margin: auto;
+    text-align: center;
+    width: 365px;
+}
+#slideText{
+    font-size: 16px;
+    line-height: 19px;
+}
+button{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 141px;
+    height: 49px;
+}
+button:hover{
+background-color: #8A8787;
+border-style: none;
+color: #fff;
+}
+/***** Products and Cards *****/
+.highlightedProducts{
+    background-color: #FFFFFF;
+    border-style: none;
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.productsNav{
+    background-color: #FFFFFF;
+    font-size: 15px;
+    color: #666666;
+}
+.card{
+    background-color: #FBFAF6;
+    width: 265px;
+    display: inline-block;
+    text-align: center;
+}
+.cardProductName{
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cardPrice{
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 15px;
+    height: 19.64px;
+    line-height: 18px;
+    width: 39.15px;
+}
+/***** Form *****/
+div form{
+    display:block;
+}
+.contactUs {
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 340px;
+    text-align: center;
+}
+.contactUs input{
+    font-size: 9px;
+    background-color:  #3C2313;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-weight: 400px;
+    width: 340px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+form input[type=submit] {
+    background-color: #F0A83E;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 400px;
+}
+form input[type=submit]:hover {
+    background-color: #8A8787;
+    border-style: none;
+    color: #FFFFFF;
+}
+form input[type=reset] {
+    background-color: #F0A83E;
+    border-style: none;
+    color: #fff;
+}
+form input[type=reset]:hover {
+    background-color: #8A8787;
+    border-style: none;
+    color: #fff;
+}
+.contactUs ::placeholder{ 
+    color: #FFFFFF
+}
+/***** Subscribe banner *****/
+.subscribe{
+    background-color:  #F0A83E;
+    color:  #F3F3F3;
+    font-size: 20px;
+    height: 62px;
+    font-weight: 700;
+    height: 60px;
+    display: flex;
+}
+.subscribe input{
+    background-color:  #FFFFFF;
+    border-radius: 15px;
+    border-style: none;
+    color: #A0A0A0;
+    font-size: 9px;
+    font-weight: 400px;
+    width: 271px;
+    height: 40px;
+
+}
+.subscribe input[type=submit]{
+    background-color:  #3C2313;
+    color: #FFFFFF;
+    height: 35px;
+    width: 70px;
+}
+.subscribe ::placeholder{ 
+    color: #A0A0A0;
+    border-style: none;
+}
+/****** Footer *****/
+footer{
+    background-color:   #3C2313;
+    color:  #F3F3F3;
+    height: 284px;
+    display: block;
+}
+.info{
+    font-weight: 700;
+    text-align: left;
+}
+.footerElement{
+    Width: 179px;
+    Height: 66px;
+    margin:auto;
+}
+.infoName{
+    font-size: 20px;
+}
+.infoData{
+    font-size: 10px;
+    color: #8A8787;
+}
+.copyright{
+    background-color: black;
+    border-style: none;
+    color: #F3F3F3;
+    font-size: 10px;
+    height: 20px;
+}
