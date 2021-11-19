@@ -52,40 +52,42 @@ nav ul{
     text-align: right;
 }
 
-/***** Slide *****/
-.slide{
-    background-image: url("/root/img/bowlbackground.png");
-    height: 409px;
-    width: 1024px;
+/********** BANNER **********/
+.banner{
+    background-image: url("/img/bowlbackground.png");
+    background-size: cover;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px 15px;
 }
+
 #slideTitle{
     background-color: #FFFFFF;
     border-radius: 5px;
-    font-size: 30px;
-    font-weight: 400;
-    height: 54px;
-    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
     text-align: center;
-    width: 365px;
+    margin-bottom: 5px;
 }
+
 #slideText{
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
 }
+
 button{
     background-color: #F0A83E;
     border-radius: 5px;
     border-style: none;
     color: #FFFFFF;
-    font-size: 16px;
-    width: 141px;
-    height: 49px;
+    font-size: 14px;
+    padding: 5px;
 }
-button:hover{
-background-color: #8A8787;
-border-style: none;
-color: #fff;
-}
+
 /***** Products and Cards *****/
 .highlightedProducts{
     background-color: #FFFFFF;
@@ -229,3 +231,12 @@ footer{
     font-size: 10px;
     height: 20px;
 }
+
+
+/********** MEDIA QUERIES ********/
+
+button:hover{
+    background-color: #8A8787;
+    border-style: none;
+    color: #fff;
+    }
