@@ -54,7 +54,7 @@ nav ul{
 
 /********** BANNER **********/
 .banner{
-    background-image: url('/img/bowlbackground.png');
+    background-image: url('../img/bowlbackground.png');
     background-size: cover;
     color: #3C2313;
     display: flex;
