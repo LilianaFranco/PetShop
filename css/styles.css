@@ -54,7 +54,7 @@ nav ul{
 
 /********** BANNER **********/
 .banner{
-    background-image: url("/img/bowlbackground.png");
+    background-image: url('/img/bowlbackground.png');
     background-size: cover;
     color: #3C2313;
     display: flex;
@@ -66,7 +66,7 @@ nav ul{
 #slideTitle{
     background-color: #FFFFFF;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     padding: 5px;
     text-align: center;
@@ -74,7 +74,7 @@ nav ul{
 }
 
 #slideText{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     padding-bottom: 5px;
 }
@@ -84,44 +84,77 @@ button{
     border-radius: 5px;
     border-style: none;
     color: #FFFFFF;
-    font-size: 14px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 10px;
 }
 
-/***** Products and Cards *****/
+/********** INTRO PRODUCTOS DESTACADOS **********/
+
 .highlightedProducts{
     background-color: #FFFFFF;
-    border-style: none;
-    color: #3C2313;
-    font-size: 40px;
-    font-weight: bold;
     text-align: center;
-    margin: auto;
+    font-family: Roboto;
+    margin: 10px 15px;
 }
-.productsNav{
-    background-color: #FFFFFF;
-    font-size: 15px;
+
+.highlightedProducts span{
+    font-size: 32px;
+    color: #F0A83E;
+}
+
+h1{
+    color: #3C2313;
+    font-size: 32px;
+}
+
+.highlightedProducts div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlightedProducts a{
     color: #666666;
-}
-.card{
-    background-color: #FBFAF6;
-    width: 265px;
-    display: inline-block;
-    text-align: center;
-}
-.cardProductName{
-    color: #3C2313;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 18px;
     font-weight: 500;
 }
+
+.highlightedProducts a:visited{
+    color: #666666;
+}
+
+/********** SECTION CARDS **********/
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card{
+    align-items: center;
+    background-color: #FBFAF6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 90%;
+}
+
+.cardProductName{
+    color: #3C2313;
+    font-size: 24px;
+    font-weight: 500;
+}
+
 .cardPrice{
     color: #F0A83E;
     font-weight: 500;
-    font-size: 15px;
-    height: 19.64px;
-    line-height: 18px;
-    width: 39.15px;
+    font-size: 24px;
 }
+
 /***** Form *****/
 div form{
     display:block;
@@ -133,7 +166,6 @@ div form{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    width: 340px;
     text-align: center;
 }
 .contactUs input{
@@ -142,7 +174,6 @@ div form{
     color: #FFFFFF;
     border-radius: 15px;
     font-weight: 400px;
-    width: 340px;
     height: 40px;
     margin-bottom: 10px;
 }
@@ -187,7 +218,6 @@ form input[type=reset]:hover {
     color: #A0A0A0;
     font-size: 9px;
     font-weight: 400px;
-    width: 271px;
     height: 40px;
 
 }
@@ -195,7 +225,7 @@ form input[type=reset]:hover {
     background-color:  #3C2313;
     color: #FFFFFF;
     height: 35px;
-    width: 70px;
+
 }
 .subscribe ::placeholder{ 
     color: #A0A0A0;
@@ -213,7 +243,6 @@ footer{
     text-align: left;
 }
 .footerElement{
-    Width: 179px;
     Height: 66px;
     margin:auto;
 }
