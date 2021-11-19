@@ -155,52 +155,57 @@ section{
     font-size: 24px;
 }
 
-/***** Form *****/
-div form{
-    display:block;
-}
-.contactUs {
+/********** FORM **********/
+
+h3{
+    font-size: 24px;
     color: #3C2313;
-    font-weight: bold;
-    font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
     text-align: center;
 }
+
+form{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .contactUs input{
-    font-size: 9px;
     background-color:  #3C2313;
-    color: #FFFFFF;
-    border-radius: 15px;
-    font-weight: 400px;
-    height: 40px;
-    margin-bottom: 10px;
-}
-form input[type=submit] {
-    background-color: #F0A83E;
+    border-radius: 10px;
     border-style: none;
     color: #FFFFFF;
-    font-weight: 400px;
+    font-family: Roboto;
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    
 }
-form input[type=submit]:hover {
-    background-color: #8A8787;
-    border-style: none;
-    color: #FFFFFF;
-}
-form input[type=reset] {
-    background-color: #F0A83E;
-    border-style: none;
-    color: #fff;
-}
-form input[type=reset]:hover {
-    background-color: #8A8787;
-    border-style: none;
-    color: #fff;
-}
+
 .contactUs ::placeholder{ 
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 200;
 }
+
+form div{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form input[type=submit], form input[type=reset]{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+}
+
 /***** Subscribe banner *****/
 .subscribe{
     background-color:  #F0A83E;
@@ -268,4 +273,15 @@ button:hover{
     background-color: #8A8787;
     border-style: none;
     color: #fff;
+    }
+
+
+    form input[type=submit]:hover {
+        background-color: #8A8787;
+        border-style: none;
+    }
+    
+    form input[type=reset]:hover {
+        background-color: #8A8787;
+        border-style: none;
     }
