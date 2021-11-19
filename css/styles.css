@@ -1,25 +1,57 @@
+/********** BODY **********/
+
 body{
-    font-family: 'Roboto', sans-serif;
-    width: 1024px;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-/***** Top banner *****/
-.top{
+
+/********** HEADER **********/
+
+header{
+    display: flex;
+    flex-direction: column;
+    color: #F3F3F3;
+    font-size: 14px;
+}
+
+/***** Languages bar *****/
+
+header div{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+select{
     background-color: black;
     border-style: none;
     color: #F3F3F3;
-    font-size: 10px;
-    height: 20px;
+    font-size: 14px;
 }
-/***** Main NAV in Header ****/
+
+/***** Nav ****/
+
 nav{
     background-color:  #F0A83E;
     color:  #F3F3F3;
-    font-size: 10px;
-    height: 62px;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 15px;
 }
+
+a:visited{
+    color: #F3F3F3;
+}
+
 nav ul{
+    display: none;
     text-align: right;
 }
+
 /***** Slide *****/
 .slide{
     background-image: url("/root/img/bowlbackground.png");
