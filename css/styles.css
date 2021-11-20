@@ -244,36 +244,58 @@ form input[type=submit], form input[type=reset]{
     color: #A0A0A0;
     border-style: none;
 }
-/****** Footer *****/
+
+/*********** FOOTER **********/
+
 footer{
     background-color:   #3C2313;
     color:  #F3F3F3;
-    height: 284px;
-    display: block;
 }
-.info{
+
+#whiteLogo{
+    align-self: center;
+    height: 30px;   
+    margin: 20px; 
+}
+
+.information{
     font-weight: 700;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
 }
+
+.infoElement{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
 .footerElement{
-    Height: 66px;
-    margin:auto;
+    align-items: center;
+    display: flex;
 }
+
 .infoName{
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 500;
 }
 .infoData{
-    font-size: 10px;
+    font-size: 18px;
+    font-weight: 500;
     color: #8A8787;
 }
+
 .copyright{
     background-color: black;
     border-style: none;
     color: #F3F3F3;
-    font-size: 10px;
-    height: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
 }
-
 
 /********** MEDIA QUERIES ********/
 
