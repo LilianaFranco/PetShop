@@ -16,42 +16,6 @@ header{
     font-size: 14px;
 }
 
-/***** Languages bar *****/
-
-header div{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    display: none;
-}
-
-select{
-    background-color: black;
-    border-style: none;
-    color: #F3F3F3;
-    font-size: 14px;
-}
-
-/***** Nav ****/
-
-nav{
-    background-color:  #F0A83E;
-    color:  #F3F3F3;
-    display: flex;
-    font-size: 16px;
-    justify-content: space-between;
-    padding: 15px;
-}
-
-a:visited{
-    color: #F3F3F3;
-}
-
-nav ul{
-    display: none;
-    text-align: right;
-}
-
 /********** BANNER **********/
 .banner{
     background-image: url('../img/bowlbackground.png');
@@ -139,7 +103,7 @@ section{
     display: flex;
     flex-direction: column;
     margin: 5px;
-    width: 90%;
+    max-width: 300px;
 }
 
 .cardProductName{
@@ -211,6 +175,7 @@ form input[type=submit], form input[type=reset]{
     background-color:  #F0A83E;
     color:  #F3F3F3;
     font-size: 20px;
+    margin-top: 10px;
     text-align: center;
     padding: 15px;
 }
@@ -299,10 +264,126 @@ footer{
 
 /********** MEDIA QUERIES ********/
 
-button:hover{
-    background-color: #8A8787;
-    border-style: none;
-    color: #fff;
+@media (min-width: 640px){
+
+    /***** Languages bar *****/
+
+    header div{
+        background-color: black;
+        display: flex;
+        font-size: 18px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /***** Header nav *****/
+
+    #menu{
+        display: none;
+    }
+
+    nav{
+        background-color:  #F0A83E;
+        color:  #F3F3F3;
+        display: flex;
+        font-size: 18px;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    nav a{
+        margin: 10px;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: #F3F3F3;
+    }
+
+    nav i{
+        padding-right: 10px;
+    }
+
+    nav img{
+        width: auto;
+        flex-basis: auto;
+    }
+
+/***** BANNER *****/
+
+/********** BANNER **********/
+
+.banner{
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+#slideTitle{
+    font-size: 40px;
+}
+
+#slideText{
+    font-size: 32px;
+    margin-top: 10px;
+
+}
+
+button{
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/********* Destacador *********/
+
+/********** INTRO PRODUCTOS DESTACADOS **********/
+
+.highlightedProducts span{
+    font-size: 48px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.highlightedProducts a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/******** Section Cards *********/
+section{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+    select{
+        background-color: black;
+        border-style: none;
+        color: #F3F3F3;
+        font-size: 18px;
+}
+
+    button:hover{
+        background-color: #8A8787;
+        border-style: none;
+        color: #fff;
     }
 
 
@@ -315,3 +396,5 @@ button:hover{
         background-color: #8A8787;
         border-style: none;
     }
+
+}
