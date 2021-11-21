@@ -16,6 +16,43 @@ header{
     font-size: 14px;
 }
 
+header div{
+    display: none;
+}
+
+header nav{
+    background-color:  #F0A83E;
+    color:  #F3F3F3;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+nav a{
+    margin: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #F3F3F3;
+}
+
+nav i{
+    padding-right: 20px;
+}
+
+nav img{
+    width: auto;
+    flex-basis: auto;
+}
+
+header ul{
+    display: none;
+}
+
 /********** BANNER **********/
 .banner{
     background-image: url('../img/bowlbackground.png');
@@ -283,33 +320,6 @@ footer{
         display: none;
     }
 
-    nav{
-        background-color:  #F0A83E;
-        color:  #F3F3F3;
-        display: flex;
-        font-size: 18px;
-        justify-content: space-between;
-        padding: 10px;
-    }
-
-    nav a{
-        margin: 10px;
-        padding-left: 20px;
-        text-decoration: none;
-    }
-
-    a:visited{
-        color: #F3F3F3;
-    }
-
-    nav i{
-        padding-right: 10px;
-    }
-
-    nav img{
-        width: auto;
-        flex-basis: auto;
-    }
 
 /***** BANNER *****/
 
